@@ -16,8 +16,6 @@ class Parent:
                 print("Your Link is: \n" + short)
                 break
             elif keyboard.is_pressed('2\n'):
-
-                break
                 i = input()
                 print("\n\nPlease Write Your Link\n")
                 shorti = self.b.bitly.short(i)
